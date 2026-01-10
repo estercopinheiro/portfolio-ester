@@ -1,10 +1,12 @@
 import profileImg from "@/assets/profile.jpg";
+import profile1Img from "@/assets/profile1.jpg";
+import profile2Img from "@/assets/profile2.jpg";
 
 const AboutSection = () => {
   const galleryItems = [
-    { type: "image", src: profileImg, alt: "Designer at work" },
-    { type: "video", src: "https://www.w3schools.com/html/mov_bbb.mp4", alt: "Design process" },
-    { type: "image", src: profileImg, alt: "Creative workspace" },
+    { type: "image", src: profile2Img, alt: "Landscape Inspiration" },
+    { type: "image", src: profile1Img, alt: "Books souls" },
+    { type: "image", src: profileImg, alt: "My face" },
   ];
 
   return (
@@ -13,35 +15,35 @@ const AboutSection = () => {
         <div className="text-center mb-16">
           <p className="text-sm font-mono text-muted-foreground uppercase tracking-wider mb-2">About Me</p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground">
-            Passionate Designer
+            Experience Designer & Explorer of Possibilities
           </h2>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-foreground leading-relaxed">
-              I'm a UX/UI and Product Designer with a passion for creating intuitive, 
-              user-centered digital experiences. With expertise in design thinking, 
-              prototyping, and visual design, I help businesses transform complex problems 
-              into elegant solutions.
+              With 12 years of strategic leadership and a background in Architecture and Urbanism, I 
+              transitioned from tempered glass to pixels to create solutions with purpose. Curiosity drives 
+              me—whether I am exploring new cultures while traveling, "flirting" with code alongside AI, or 
+              building interactive maps in Work Adventure.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              My approach combines research-driven insights with creative execution, 
-              ensuring every design decision is backed by data and user needs. I believe 
-              in the power of design to create positive change and drive business success.
+              I believe there are no complex problems that cannot be transformed into elegant and 
+              functional experiences. My focus is to bridge business strategy with human-centered 
+              design to exceed expectations—both mine and the users'.
             </p>
             <div className="flex items-center gap-8 pt-4">
               <div className="text-center">
-                <p className="text-3xl font-bold text-foreground">5+</p>
-                <p className="text-sm text-muted-foreground">Years Experience</p>
+                <p className="text-3xl font-bold text-foreground">12+</p>
+                <p className="text-sm text-muted-foreground">Years of Strategic Leadership</p>
               </div>
               <div className="text-center">
-                <p className="text-3xl font-bold text-foreground">50+</p>
-                <p className="text-sm text-muted-foreground">Projects Completed</p>
+                <p className="text-3xl font-bold text-foreground">UX/UI</p>
+                <p className="text-sm text-muted-foreground">Digital Product Specialist</p>
               </div>
               <div className="text-center">
-                <p className="text-3xl font-bold text-foreground">30+</p>
-                <p className="text-sm text-muted-foreground">Happy Clients</p>
+                <p className="text-3xl font-bold text-foreground">Global</p>
+                <p className="text-sm text-muted-foreground">International Experience (Ireland)</p>
               </div>
             </div>
           </div>
