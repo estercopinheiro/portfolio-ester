@@ -7,7 +7,7 @@ const ContactSection = () => {
       <div className="container">
         <div className="text-center max-w-2xl mx-auto">
           <p className="text-sm font-mono opacity-70 uppercase tracking-wider mb-2">
-            Let's Connect
+            Let's Talk! 😁
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">
             Have a Project in Mind?
@@ -26,12 +26,12 @@ const ContactSection = () => {
             >
               <a href="mailto:hello@example.com">
                 <Mail className="w-4 h-4" />
-                hello@example.com
+                ester.copinheiro@gmail.com
               </a>
             </Button>
             <div className="flex items-center gap-2 text-primary-foreground/70">
               <MapPin className="w-4 h-4" />
-              <span>New York, USA</span>
+              <span>Rio de Janeiro, Brazil</span>
             </div>
           </div>
 

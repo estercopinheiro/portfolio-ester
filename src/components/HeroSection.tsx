@@ -16,13 +16,13 @@ const HeroSection = () => {
           UX/UI & Product Designer
         </p>
         <h1 className="font-serif text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in-up">
-          Crafting Digital
+          Hi, 👋🏻 I'm
           <br />
-          <span className="text-primary">Experiences</span>
+          <span className="text-primary">Ester Pinheiro</span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-10 animate-fade-in-up-delay">
-          I design user-centered products that blend aesthetics with functionality, 
-          creating meaningful experiences that drive engagement.
+          Driven by curiosity and the belief that the impossible is a matter of opinion, I transitioned my 12+ years of leadership 
+          and business vision from the tempered glass industry to the digital universe.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up-delay-2">
           <Button size="lg" onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}>
