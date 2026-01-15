@@ -15,13 +15,13 @@ import {
 
 const skills = [
   { icon: Figma, name: "Figma", category: "Design Tool" },
-  { icon: PenTool, name: "Adobe XD", category: "Design Tool" },
-  { icon: Layout, name: "Sketch", category: "Design Tool" },
-  { icon: Palette, name: "Adobe Suite", category: "Design Tool" },
-  { icon: Layers, name: "Prototyping", category: "Skill" },
-  { icon: Box, name: "3D Design", category: "Skill" },
-  { icon: Code, name: "HTML/CSS", category: "Development" },
-  { icon: FileCode, name: "React", category: "Development" },
+  { icon: PenTool, name: "Product Design", category: "Skills" },
+  { icon: Layout, name: "User Experience (UX)", category: "Skills" },
+  { icon: Palette, name: "User Interface (UI)", category: "Skills" },
+  { icon: Layers, name: "Prototyping", category: "Skills" },
+  { icon: Box, name: "SketchUp", category: "3D Tool" },
+  { icon: Code, name: "UX Analytics", category: "Skills" },
+  { icon: FileCode, name: "Resilience and Adaptability", category: "Skills" },
 ];
 
 const SkillsSection = () => {
@@ -36,7 +36,7 @@ const SkillsSection = () => {
             My Expertise
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive toolkit that enables me to bring ideas to life
+            What's in my carry-on for crafting exceptional user experiences.
           </p>
         </div>
 
@@ -59,12 +59,22 @@ const SkillsSection = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" className="gap-2">
-            <Download className="w-4 h-4" />
-            Download CV
+            <a href="/encv-esterpinheiro.pdf" download
+              className="inline-flex flex-row items-center gap-2">
+                <Download className="w-4 h-4" />
+                <span>Download CV</span>
+            </a>
           </Button>
           <Button variant="outline" size="lg" className="gap-2">
-            <ExternalLink className="w-4 h-4" />
-            View LinkedIn
+              <a
+               href="https://www.linkedin.com/in/ester-pinheiro/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex flex-row items-center gap-2"
+              >       
+                  <ExternalLink className="w-4 h-4" />
+                  <span>View LinkedIn</span>
+              </a>    
           </Button>
         </div>
       </div>
