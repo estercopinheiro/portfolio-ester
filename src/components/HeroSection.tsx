@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
       
       <div className="container relative z-10 text-center py-20">
-        <p className="text-sm font-mono text-muted-foreground mb-4 tracking-wider uppercase animate-fade-in">
+        <p className="text-sm font-mono text-slate-900 font-bold mb-4 tracking-wider uppercase animate-fade-in drop-shadow-sm">
           UX/UI & Product Designer
         </p>
         <h1 className="font-serif text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in-up">
@@ -20,7 +20,7 @@ const HeroSection = () => {
           <br />
           <span className="text-primary">Ester Pinheiro</span>
         </h1>
-        <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-10 animate-fade-in-up-delay">
+        <p className="text-lg text-slate-800 font-semibold max-w-xl mx-auto mb-10 animate-fade-in-up-delay drop-shadow-sm">
           Driven by curiosity and the belief that the impossible is a matter of opinion, I transitioned my 12+ years of leadership 
           and business vision from the tempered glass industry to the digital universe.
         </p>

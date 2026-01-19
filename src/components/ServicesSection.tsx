@@ -3,30 +3,32 @@ import {
   Smartphone, 
   Monitor, 
   Palette, 
-  Search, 
+  Search,
+  Workflow,
+  ClipboardCheck, 
   ArrowRight 
 } from "lucide-react";
 
 const services = [
   {
-    icon: Smartphone,
-    title: "Mobile App Design",
-    description: "Native iOS and Android app designs that provide seamless user experiences across all devices.",
+    icon: ClipboardCheck,
+    title: "Design Critique & Consulting",
+    description: "Expert evaluation of your product's UI/UX. I provide actionable feedback to identify friction points, improve usability, and ensure your interface aligns with industry best practices and accessibility standards.",
   },
   {
     icon: Monitor,
-    title: "Web Design",
-    description: "Responsive websites and web applications that are beautiful, functional, and conversion-focused.",
+    title: "Product Design (Web & Mobile)",
+    description: "End-to-end design for digital products. I create intuitive, responsive, and high-fidelity interfaces that balance aesthetic appeal with functional performance across all platforms.",
   },
   {
-    icon: Palette,
-    title: "Brand Identity",
-    description: "Complete brand systems including logos, color palettes, typography, and visual guidelines.",
+    icon: Workflow,
+    title: "Design Ops & Documentation",
+    description: "Optimization of design workflows and Jira environments. Drawing from my experience with design standardization, I help teams build scalable systems and clear documentation for seamless handoffs.",
   },
   {
     icon: Search,
-    title: "UX Research",
-    description: "User research, testing, and analysis to ensure designs meet real user needs and business goals.",
+    title: "User Research & Strategy",
+    description: "Transforming user data into strategic roadmaps. I conduct thorough research and discovery phases to validate product ideas and align user needs with your business's core objectives.",
   },
 ];
 
@@ -39,10 +41,10 @@ const ServicesSection = () => {
             Services
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
-            What I Offer
+            Strategic Design
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            End-to-end design services to help bring your vision to life
+            Driving product excellence through expert analysis, user-centric strategy, and optimized design workflows.
           </p>
         </div>
 
