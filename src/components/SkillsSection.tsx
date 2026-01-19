@@ -2,26 +2,28 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
   Figma, 
-  PenTool, 
-  Layout, 
+  Monitor, 
+  Layout,
+  UserRound,
   Palette, 
-  Code, 
-  Layers, 
-  FileCode,
+  Layers,
+  Zap,
   Box,
+  RefreshCw,
   Download,
+  BarChart3,
   ExternalLink
 } from "lucide-react";
 
 const skills = [
   { icon: Figma, name: "Figma", category: "Design Tool" },
-  { icon: PenTool, name: "Product Design", category: "Skills" },
-  { icon: Layout, name: "User Experience (UX)", category: "Skills" },
+  { icon: Layout, name: "Product Design", category: "Skills" },
+  { icon: UserRound, name: "User Experience (UX)", category: "Skills" },
   { icon: Palette, name: "User Interface (UI)", category: "Skills" },
-  { icon: Layers, name: "Prototyping", category: "Skills" },
+  { icon: Zap, name: "Prototyping", category: "Skills" },
   { icon: Box, name: "SketchUp", category: "3D Tool" },
-  { icon: Code, name: "UX Analytics", category: "Skills" },
-  { icon: FileCode, name: "Resilience and Adaptability", category: "Skills" },
+  { icon: BarChart3, name: "UX Analytics", category: "Skills" },
+  { icon: RefreshCw, name: "Resilience and Adaptability", category: "Skills" },
 ];
 
 const SkillsSection = () => {

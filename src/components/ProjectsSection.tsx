@@ -2,30 +2,30 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
 import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
+import project2 from "@/assets/project-2.gif";
 import project3 from "@/assets/project-3.jpg";
 
 const projects = [
   {
-    title: "Finance App Redesign",
-    description: "Complete mobile app redesign focusing on simplifying complex financial data for everyday users.",
+    title: "KBA Design Jira",
+    description: "This guide standardizes Jira for Design to align workflows with Product and Tech, ensuring traceable and collaborative delivery.",
     image: project1,
-    tags: ["Mobile", "UX Research", "UI Design"],
-    link: "#",
+    tags: ["Design-Discovery", "UX Research", "Improvement"],
+    link: "https://colossal-riverbed-6c5.notion.site/KBA-0001-Guia-Completo-de-Tarefas-no-Jira-Design-Team-2b7e04a3e4e580768e07f98a10a314d9",
   },
   {
-    title: "Analytics Dashboard",
-    description: "Data visualization platform for e-commerce businesses to track and analyze their performance metrics.",
+    title: "Itaú Next Level",
+    description: "Empowering the Next Phase. Beyond Banking Project - Itaú Partnership with EBAC [British School of Creative Arts]",
     image: project2,
-    tags: ["Web", "Dashboard", "Data Viz"],
-    link: "#",
+    tags: ["UX/UI", "Mobile", "Design Thinking"],
+    link: "https://www.behance.net/gallery/227861185/Itau-Next-Level",
   },
   {
-    title: "Brand Identity System",
-    description: "Comprehensive brand identity including logo, typography, color system, and design guidelines.",
+    title: "entrelinhas AI",
+    description: "Your digital escape for mindful moments. Let AI find the perfect words for your mood.",
     image: project3,
-    tags: ["Branding", "Visual Design", "Guidelines"],
-    link: "#",
+    tags: ["UX/UI", "Web Development", "AI-Powered"],
+    link: "https://entrelinhas-eh.vercel.app/",
   },
 ];
 
@@ -38,10 +38,10 @@ const ProjectsSection = () => {
             Portfolio
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Selected Projects
+            Projects with Purpose
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            A showcase of my recent work across various industries and platforms
+            A selection of design solutions focused on solving real-world problems and delivering meaningful impact for users and businesses alike.
           </p>
         </div>
 
