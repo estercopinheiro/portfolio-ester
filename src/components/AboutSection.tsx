@@ -4,9 +4,9 @@ import profile2Img from "@/assets/profile2.jpg";
 
 const AboutSection = () => {
   const galleryItems = [
-    { type: "image", src: profile2Img, alt: "Estou ao ar livre em um mirante com o Morro do Pão de Açúcar ao fundo, sob um céu azul sem nuvens. Estou vestindo uma blusa branca sem mangas, calças cor-de-rosa e usa óculos de sol" },
-    { type: "image", src: profile1Img, alt: "Foto de um livro aberto. Na página da esquerda, há uma citação de Frida Kahlo em português: Nada é Absoluto. Tudo muda, tudo se move, tudo gira, tudo voa e desaparece. Na página da direita, uma ilustração estilizada em preto e branco do rosto de Frida Kahlo com flores no cabelo, sobre um fundo laranja vibrante com desenhos de folhas brancas." },
-    { type: "image", src: profileImg, alt: "Close do meu rosto, sou mulher de pele clara e longos cabelos castanhos ondulados. Uso óculos de armação preta e retangular, estou sorrindo suavemente para a câmera. Estou com uma camiseta cinza. O fundo é uma parede de tom rosa suave com uma cabeceira estofada em tom terroso." },
+    { type: "image", src: profile2Img, alt: "I'm outdoors at a viewpoint with Sugarloaf Mountain in the background, under a cloudless blue sky. I'm wearing a white sleeveless blouse, pink pants, and sunglasses." },
+    { type: "image", src: profile1Img, alt: "Photo of an open book. On the left-hand page, there is a quote from Frida Kahlo in Portuguese: Nothing is Absolute. Everything changes, everything moves, everything spins, everything flies and disappears. On the right-hand page, a stylized black and white illustration of Frida Kahlo's face with flowers in her hair, on a vibrant orange background with drawings of white leaves." },
+    { type: "image", src: profileImg, alt: "Close-up of my face; I'm a fair-skinned woman with long, wavy brown hair. I'm wearing rectangular, black-framed glasses and smiling gently at the camera. I'm wearing a gray t-shirt. The background is a soft pink wall with an upholstered headboard in an earthy tone." },
   ];
 
   return (
