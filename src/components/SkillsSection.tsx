@@ -61,7 +61,9 @@ const SkillsSection = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" className="gap-2">
-            <a href="/encv-esterpinheiro.pdf" download
+            <a href="https://docs.google.com/document/d/1blkFtb6nGwDMSdQgEZCaR4dVf7F9nVzQfCp335HiVxI/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
               className="inline-flex flex-row items-center gap-2">
                 <Download className="w-4 h-4" />
                 <span>Download CV</span>
