@@ -37,6 +37,7 @@ const HeroSection = () => {
       <button 
         onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-muted-foreground hover:text-foreground transition-colors"
+        aria-label="Scroll to About Section"
       >
         <ArrowDown className="w-6 h-6" />
       </button>
