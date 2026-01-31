@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
+# 💜 Welcome to My Lovable project
 
-## Project info
+## 👩🏻‍💻 Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+### 🚀 Modern Portfolio: Efficiency meets Accessibility
 
-## How can I edit this code?
+A high-performance personal portfolio built with a "fast-track" mindset. This project skips the traditional Figma-to-Framer bottleneck by leveraging AI-assisted scaffolding followed by rigorous manual refinement, with a primary focus on inclusive design and color accessibility.
 
-There are several ways of editing your application.
+### 💡 The Philosophy
 
-**Use Lovable**
+I wanted to build a portfolio that was both functional and aesthetically pleasing without getting stuck in the "design purgatory" of Figma.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+By using Lovable to generate the initial structure, I was able to jump straight into the code. This allowed me to spend my energy where it truly impacts the user: semantic HTML, performance, and WCAG-compliant color accessibility.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- Lovable AI: Rapid UI scaffolding.
+- React + Vite: A lightning-fast development environment.
+- Tailwind CSS: For utility-first, responsive styling.
+- Lucide React: Clean and consistent iconography.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### ♿ Accessibility First (A11y)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Most "out-of-the-box" templates fail at accessibility. I’ve manually audited this project to ensure it’s inclusive:
 
-Follow these steps:
+- High Contrast Palettes: Colors were hand-picked and tested to meet WCAG 2.1 standards, ensuring readability for users with low vision or color blindness.
+- Semantic Structure: Beyond just (div) tags—using proper landmarks for screen readers.
+- Responsive UX: Seamless experience from mobile devices to large desktops.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🏃 Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Clone the repo: git clone https://github.com/estercopinheiro/portfolio-ester.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. Install dependencies: npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+3. Launch the dev server: npm run dev
 
-**Edit a file directly in GitHub**
+### 📈 Evolution (Roadmap)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- [ ] Keyboard Navigation: Full audit for focus states and "skip to content" links.
+- [ ] Asset Optimization: Converting all images to Next-gen formats (WebP/Avif).
+- [ ] Dark Mode Toggle: Ensuring high contrast remains consistent across themes.
