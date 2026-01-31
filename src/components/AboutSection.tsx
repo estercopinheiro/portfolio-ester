@@ -4,9 +4,9 @@ import profile2Img from "@/assets/profile2.jpg";
 
 const AboutSection = () => {
   const galleryItems = [
-    { type: "image", src: profile2Img, alt: "Landscape Inspiration" },
-    { type: "image", src: profile1Img, alt: "Books souls" },
-    { type: "image", src: profileImg, alt: "My face" },
+    { type: "image", src: profile2Img, alt: "Estou ao ar livre em um mirante com o Morro do Pão de Açúcar ao fundo, sob um céu azul sem nuvens. Estou vestindo uma blusa branca sem mangas, calças cor-de-rosa e usa óculos de sol" },
+    { type: "image", src: profile1Img, alt: "Foto de um livro aberto. Na página da esquerda, há uma citação de Frida Kahlo em português: Nada é Absoluto. Tudo muda, tudo se move, tudo gira, tudo voa e desaparece. Na página da direita, uma ilustração estilizada em preto e branco do rosto de Frida Kahlo com flores no cabelo, sobre um fundo laranja vibrante com desenhos de folhas brancas." },
+    { type: "image", src: profileImg, alt: "Close do meu rosto, sou mulher de pele clara e longos cabelos castanhos ondulados. Uso óculos de armação preta e retangular, estou sorrindo suavemente para a câmera. Estou com uma camiseta cinza. O fundo é uma parede de tom rosa suave com uma cabeceira estofada em tom terroso." },
   ];
 
   return (
@@ -23,7 +23,7 @@ const AboutSection = () => {
           <div className="space-y-6">
             <p className="text-lg text-foreground leading-relaxed">
               With 12 years of strategic leadership and a background in Architecture and Urbanism, I 
-              transitioned from tempered glass to pixels to create solutions with purpose. Curiosity drives 
+              progressed from tempered glass to pixels to create solutions with purpose. Curiosity drives 
               me—whether I am exploring new cultures while traveling, "flirting" with code alongside AI, or 
               building interactive maps in Work Adventure.
             </p>
