@@ -49,7 +49,7 @@ const ContactSection = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://www.behance.net/estercoelho1" 
+              href="https://www.behance.net/estercopinheiro" 
               className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 flex items-center justify-center transition-colors"
             >
               <ExternalLink className="w-5 h-5" />
