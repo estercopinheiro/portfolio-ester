@@ -9,7 +9,7 @@ const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/80 to-background" />
       
       <div className="container relative z-10 text-center py-20">
         <p className="text-sm font-mono text-slate-900 font-bold mb-4 tracking-wider uppercase animate-fade-in drop-shadow-sm">

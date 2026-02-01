@@ -24,35 +24,44 @@ const ContactSection = () => {
               className="gap-2"
               asChild
             >
-              <a href="mailto:hello@example.com">
-                <Mail className="w-4 h-4" />
+              <a href="mailto:hello@example.com"
+              aria-label="Send an email to ester.copinheiro@gmail.com"
+              >
+                <Mail className="w-4 h-4" aria-hidden="true" />
                 ester.copinheiro@gmail.com
               </a>
             </Button>
-            <div className="flex items-center gap-2 text-primary-foreground/70">
-              <MapPin className="w-4 h-4" />
+            <div className="flex items-center gap-2 text-primary-foreground/70"
+              aria-label="Location">
+              <MapPin className="w-4 h-4" aria-hidden="true" />
               <span>Rio de Janeiro, Brazil</span>
             </div>
           </div>
 
           <div className="flex items-center justify-center gap-4">
+            {/* LinkedIn Link */}
             <a 
               href="https://www.linkedin.com/in/ester-pinheiro/" 
               className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 flex items-center justify-center transition-colors"
+              aria-label="Visit my LinkedIn profile"
             >
-              <Linkedin className="w-5 h-5" />
+              <Linkedin className="w-5 h-5" aria-hidden="true" />
             </a>
+            {/* Github Link */}
             <a 
               href="https://github.com/estercopinheiro" 
               className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 flex items-center justify-center transition-colors"
+              aria-label="Visit my GitHub profile"
             >
-              <Github className="w-5 h-5" />
+              <Github className="w-5 h-5" aria-hidden="true" />
             </a>
+            {/* Behance Link */}
             <a 
               href="https://www.behance.net/estercopinheiro" 
               className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 flex items-center justify-center transition-colors"
+              aria-label="Visit my Behance profile"
             >
-              <ExternalLink className="w-5 h-5" />
+              <ExternalLink className="w-5 h-5" aria-hidden="true" />
             </a>
           </div>
         </div>
