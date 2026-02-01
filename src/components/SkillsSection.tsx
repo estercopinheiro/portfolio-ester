@@ -50,7 +50,11 @@ const SkillsSection = () => {
             >
               <CardContent className="p-6 text-center">
                 <div className="w-12 h-12 mx-auto mb-3 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                  <skill.icon className="w-6 h-6" />
+                  <skill.icon 
+                    className="w-6 h-6" 
+                    aria-hidden="true" 
+                    focusable="false"
+                  />
                 </div>
                 <h3 className="font-medium text-foreground mb-1">{skill.name}</h3>
                 <p className="text-xs text-muted-foreground">{skill.category}</p>
